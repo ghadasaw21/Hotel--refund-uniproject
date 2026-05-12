@@ -442,7 +442,8 @@ export default function App() {
 
   return (
 <div className="min-h-[100dvh] bg-gray-50 max-w-[430px] mx-auto relative overflow-x-hidden">
-
+{/* iOS Status Bar */}
+<div className="h-10 bg-white"></div>
 
       {/* Search Screen */}
       {currentScreen === "search" && (
