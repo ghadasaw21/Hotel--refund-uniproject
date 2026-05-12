@@ -418,12 +418,22 @@ export default function App() {
             </button>
 
             {/* Search Button */}
-            <button
-              onClick={() => setCurrentScreen('results')}
-              className="w-full bg-white text-blue-700 font-bold py-4 rounded-2xl shadow-lg active:scale-[0.98] transition-transform text-lg"
-            >
-              Search Hotels
-            </button>
+              <button
+                onClick={() => setCurrentScreen("results")}
+                className="w-full bg-white text-blue-700 font-bold py-3 rounded-xl shadow-lg active:scale-[0.98] transition-transform text-base"
+              >
+                Search Hotels
+              </button>
+            </div>
+          </div>
+
+          {/* Footer */}
+          <div className="px-4 pb-4 mt-auto">
+            <p className="text-center text-gray-300 text-[10px]">
+              Developed by Ghada
+              <br />
+              Course IS1474 2026
+            </p>
           </div>
         </div>
       )}
