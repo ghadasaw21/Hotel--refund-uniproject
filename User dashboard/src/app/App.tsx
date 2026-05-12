@@ -441,14 +441,14 @@ export default function App() {
   );
 
   return (
-    <div className="min-h-screen bg-gray-50 w-[420px] mx-auto relative">
-      {/* iOS Status Bar */}
+<div className="min-h-screen bg-gray-50 max-w-[420px] mx-auto relative overflow-hidden">
+  {/* iOS Status Bar */}
       <div className="h-10 bg-white"></div>
 
       {/* Search Screen */}
       {currentScreen === "search" && (
-        <div className="min-h-screen bg-gradient-to-b from-blue-600 to-blue-700 pb-12 flex flex-col">
-          <div className="flex-1">
+<div className="min-h-[100dvh] bg-gradient-to-b from-blue-600 to-blue-700 flex flex-col">
+  <div className="flex-1">
             <div className="px-4 pt-3">
               <h1 className="text-white text-2xl font-bold mb-1">
                 Find Hotels
