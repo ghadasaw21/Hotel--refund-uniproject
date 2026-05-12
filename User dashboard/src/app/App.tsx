@@ -426,7 +426,6 @@ return (
     </div>
   )}
 
-
     {/* Footer */}
           <div className="px-4 pb-4 mt-auto">
             <p className="text-center text-gray-300 text-[10px]">
